@@ -1,7 +1,61 @@
-.header {
+.header{
+    width: 960px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    align-content: center;
+    margin: 0 auto;
 
 }
 
-.footer {
+.header h1{
+    float: left;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 20px;
 
+}
+
+.header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    float: right;
+    overflow: hidden;
+
+}
+
+.header li{
+    float: left;
+    color: #777777;
+}
+
+.header li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    color: #777777;
+}
+
+
+h2{
+    clear: both;
+}
+
+.contents{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.profile{
+  padding: 20px;
+  float: left;
+  object-fit: contain;
+}
+
+.footer{
+    clear: both;
+    width: 100%;
+    text-align: center;
+    background-color: #666666;
 }
