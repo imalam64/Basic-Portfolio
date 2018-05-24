@@ -20,21 +20,26 @@
     
     <div class="contents">
         <h2>Contact</h2>
-        <div class ="form">
-            <p>Name</p>
+        <br>
+        <div class="container">
+            <form action="action_page.php">
+          
+              <label for="fname">Name</label>
+              <br>
+              <input type="text" id="name" name="name" placeholder="John Smith">
+          <br>
+              <label for="lname">Email</label>
             <br>
-                <input type="text" name="name" placeholder="John Smith">
-                <br>
-            <p>Email</p>
+              <input type="text" id="email" name="email" placeholder="example@gmail.com">
+          <br>
+              <label for="message">Message</label>
             <br>
-                <input type="text" name="email" placeholder="example@gmail.com">
-                <br>
-            <p>Message</p>
-            <br>
-                <input type="text" name="message">
-                <br>
-            <input type="submit" value="Submit">
-        </div>
+              <textarea id="message" name="message" style="height:200px"></textarea>
+          <br>
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
     </div>
 
     <div class="footer">
