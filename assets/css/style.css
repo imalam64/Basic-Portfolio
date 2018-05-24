@@ -1,5 +1,8 @@
 body{
     background-image: url("../images/funky-lines.png");
+    display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .banner{
@@ -37,11 +40,11 @@ body{
 .header ul{
     list-style-type: none;
     margin: 0;
-    padding: 15px;
+    padding: 10px;
     float: right;
     overflow: hidden;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .header li{
@@ -51,7 +54,7 @@ body{
 .header li a {
     display: block;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 16px;
     text-decoration:none;
     color: #777777    
 }
@@ -66,14 +69,13 @@ body{
     clear: both;
     width: 960px;
     position: relative;
-    margin: 0 auto;
-    margin-bottom: 20px;
+    margin: auto;
+    margin-bottom: 60px;
     background: #ffffff;
     overflow: auto;
     padding: 20px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
-    padding: 20px;
 }
 
 .contents p{
@@ -127,11 +129,13 @@ body{
     font-size: 14px;
 }
 
+
+
 .footer{
     clear: both;
+    content: "";
     position: fixed;
-    left: 0;
-    bottom: 0;
+    bottom: 0rem;
     width: 100%;
     text-align: center;
     background-color: #666666;
