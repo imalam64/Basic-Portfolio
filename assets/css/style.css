@@ -60,8 +60,8 @@ body{
 }
 
 .portfoliobttn{
-    border-right: 1px solid #777777;
-    border-left: 1px solid #777777;
+    border-right: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
 }
 
 
@@ -92,6 +92,12 @@ body{
     margin-bottom: 10px;
     margin-top: 10px;
     border-bottom: 2px solid #cccccc;
+}
+
+.contents h3{
+font-family: 'Georgia', Times, Times New Roman, serif;
+background: #4aaaa5;
+color: #ffffff;
 }
 
 .profile{
